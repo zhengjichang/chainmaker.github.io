@@ -1,45 +1,25 @@
-﻿<!DOCTYPE html>
-<html lang="zh">
-
-<head>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <title>个人简介</title>
-    <link rel="apple-touch-icon" href="https://cdn.mom1.cn/1/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
-    <style>
-
-    </style>
-</head>
-
-<body style="padding:12% 5% 5% 5%;background-image:url(style/images/img/背景.jpg);  background-size: 34% 55%;">
-    <div id="aplayer" class="aplayer" data-id="98317854" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#ccc"></div>
-    <div style="text-align:center;border-width:1px;border-style:solid;border-color:rgb(2, 204, 245);background-color:#79918e6b;border-radius:20px;">
-        <p>
-            <img style="border-radius:50%;max-width:100px;max-height:100px;" src="style/images/小背景.jpg"></p>
-        <h1 style="color:#fff;"><strong>首页</strong>
-        </h1>
-        <p style="font-size:3vh;color:#fff;">欢迎来到小裴的个人简介</p>
-        <p style="line-height:3;">
-            <a style="border-radius:10px;padding:7px 30px;color:#fff;border-style:solid;text-decoration:none;" href="index.html">首页</a>
-            <a style="border-radius:10px;padding:7px 30px;color:#fff;border-style:solid;text-decoration:none;" href="./PyMing.html">个人简介</a>
-            <a style="border-radius:10px;padding:7px 30px;color:#fff;border-style:solid;text-decoration:none;" href="https://zzrvtc.edu.cn">学校官网</a>
-        </p>
-        <p>
-            <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-            <span style="color:#bd8787;">你的IP:<script>
-                    document.write(returnCitySN["cip"])
-                   </script></span>
-        </p>
-        <p style="color:#fff;">你的地址:
-            <script>
-                document.write(returnCitySN["cname"])
-            </script>© <a style="text-decoration:none;color:#fff;" href="index.html">OD</a>.版权所有</p>
-        <script type="text/javascript" color="255,255,255" opacity='0.7' zIndex="-2" count="200" src="style/js/canvas-nest.min.js"></script>
-    </div>
-
-</body>
-
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title> Front-End Development Specifications</title>
+    <meta name="description" content="前端开发规范文档1">
+    <link rel="icon" href="/frontend/favicon.ico">
+    
+    <link rel="preload" href="/frontend/assets/css/0.styles.6a988ebd.css" as="style"><link rel="preload" href="/frontend/assets/js/app.a1ea9706.js" as="script"><link rel="preload" href="/frontend/assets/js/3.9579ed42.js" as="script"><link rel="prefetch" href="/frontend/assets/js/2.aa644d99.js"><link rel="prefetch" href="/frontend/assets/js/4.c3e4d59f.js"><link rel="prefetch" href="/frontend/assets/js/5.5c9a9287.js"><link rel="prefetch" href="/frontend/assets/js/6.d2becdb6.js"><link rel="prefetch" href="/frontend/assets/js/7.d39c82f1.js"><link rel="prefetch" href="/frontend/assets/js/8.059a325d.js"><link rel="prefetch" href="/frontend/assets/js/9.d9cf144e.js">
+    <link rel="stylesheet" href="/frontend/assets/css/0.styles.6a988ebd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/frontend/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name"> Front-End Development Specifications</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/frontend/html-css/" class="nav-link">HTML/CSS</a></div><div class="nav-item"><a href="/frontend/javascript/" class="nav-link">JavaScript</a></div><div class="nav-item"><a href="/frontend/eslint/" class="nav-link">Eslint</a></div><div class="nav-item"><a href="/frontend/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/frontend/others/" class="nav-link">其它</a></div> <a href="https://github.com/luichooy/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/frontend/html-css/" class="nav-link">HTML/CSS</a></div><div class="nav-item"><a href="/frontend/javascript/" class="nav-link">JavaScript</a></div><div class="nav-item"><a href="/frontend/eslint/" class="nav-link">Eslint</a></div><div class="nav-item"><a href="/frontend/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/frontend/others/" class="nav-link">其它</a></div> <a href="https://github.com/luichooy/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>Home</span> <!----></p> <ul class="sidebar-group-items"></ul></div></li></ul> </div> <div class="home"><div class="hero"><img src="/frontend/logo.png" alt="hero"> <h1> Front-End Development Specifications</h1> <p class="description">
+      前端开发规范文档1
+    </p> <p class="action"><a href="/frontend/html-css/" class="nav-link action-button">快速上手 →</a></p></div> <div class="features"><div class="feature"><h2>HTML/CSS</h2> <p>HTML/CSS的开发规范。</p></div><div class="feature"><h2>JavaScript</h2> <p>JavaScript的开发规范。</p></div><div class="feature"><h2>Vue</h2> <p>Vue的开发规范，参考了官方的风格指南。</p></div><div class="feature"><h2>Eslint</h2> <p>Eslint使用了standard风格，并且有一些修改。</p></div><div class="feature"><h2>其它</h2> <p>包括了一些额外的编码要求、配置文件、目录结构等方面的内容</p></div></div> <div class="content custom"></div> <div class="footer">
+    MIT Licensed | Copyright © 2018-present luichooy
+  </div></div> <!----></div></div>
+    <script src="/frontend/assets/js/app.a1ea9706.js" defer></script><script src="/frontend/assets/js/3.9579ed42.js" defer></script>
+  </body>
 </html>
-<script src="https://blog-static.cnblogs.com/files/yjlaugus/APlayer.min.js"></script>
-<script src="https://unpkg.com/meting@1.2/dist/Meting.min.js"></script>
